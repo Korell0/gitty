@@ -1,5 +1,5 @@
 def introduce():
-    print('Hello, I\'m Gitty!')
+    print('Hello, my name is Bond.')
 
 def joke():
     print('\nA husband and wife were dining at a 5-star restaurant. ' +
