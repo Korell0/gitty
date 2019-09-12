@@ -1,11 +1,12 @@
 def introduce():
-    print('Hello, I\'m Gitty!')
+    gitty_name=input("What is my name?  ")
+    print('Hello, my name is '+gitty_name)
 
 
 def add(a,b):
     return a+b
 
-print(add(5,6))
+
 
 def joke():
     print('\nA husband and wife were dining at a 5-star restaurant. ' +
@@ -19,4 +20,7 @@ def joke():
 
     print('“That’s at home, my dear. Here the chef knows how to cook…”')
 
+
+introduce()
 joke()
+print(add(5,5))
